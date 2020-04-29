@@ -1,24 +1,20 @@
 #language: pt
 Funcionalidade: Concluir os testes com exito
 
-Realizar uma pesquisa, efetuar uma compra, logar com sucesso e fazer um login inválido
+Realizar uma pesquisa, efetuar uma compra, logar com sucesso e fazer um login invalido
 
-
-Contexto: 
-Dado que estou acessando uma aplicação
-
-Cenário: Deve realizar uma pesquisa
+Cenario: Deve realizar uma pesquisa
 Quando Fazer uma pesquisa de "blouses"
-Então Conclua a pesquisa com sucesso
+Entao Conclua a pesquisa com sucesso
 
-Cenário: Deve realizar uma compra
+Cenario: Deve realizar uma compra
 Quando Selecionar o produto
-Então Concluir a compra
+Entao Concluir a compra
 
-Cenário: Logar na página
+Cenario: Logar na pagina
 Quando entrar na minha conta
-Então acesso minha conta
+Entao acesso minha conta
 
-Cenário: Login inválido
+Cenario: Login invalido
 Quando entrar na minha conta
-Então apresenta erro de login inválido
+Entao apresenta erro de login invalido
